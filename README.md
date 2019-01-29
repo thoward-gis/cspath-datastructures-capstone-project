@@ -15,7 +15,7 @@ where N is the length of the string
 Hash Map and Linked List. Hash maps are most efficient for retrieving a value based on a key value pair. I used a Hash Map to retrieve a Linked List of restaurants
 based on a restaurant type value. Once the restaurant type is known, a Linked List works find to store the options. Each item in the Linked List was also a Hash Map object.
 
-What is the runtime (in asymptotic notation) of retrieving the restaurant data? Do you think there is a more efficient runtime?
+4. What is the runtime (in asymptotic notation) of retrieving the restaurant data? Do you think there is a more efficient runtime?
 
 O(1) + O(N) + O(1) = O(N)
 where N is the number of restaurants returned
@@ -23,7 +23,7 @@ where N is the number of restaurants returned
 It's possible there is a more efficient runtime if different data structures were used or if the data was organized in a different way. Because a Linked List is used
 to store the restaurants for each restaurant type, we need to iterate through the list which gives us O(N) runtime.
 
-Outside of this project, what are other innovative ways you can utilize data structures?
+5. Outside of this project, what are other innovative ways you can utilize data structures?
 
 I plan to implement a queue data structure to enable concurrent processing so that while data is being uploaded to the queue, another process will begin processing
 items in the queue.
